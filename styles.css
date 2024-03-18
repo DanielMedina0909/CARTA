@@ -1,0 +1,55 @@
+body{
+    width: 600px;
+    margin: 0% auto;
+    padding: 0 20px 20px 20px;
+    background-color: #044040;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+h1 {
+    background-color: black;
+    color: white;
+    text-shadow: 3em 3em 1em black;
+    text-align: center;
+    font-family: "Potta One", system-ui;
+    font-weight: 400em;
+    font-style: normal;
+}
+h2{
+    color: white;
+    text-shadow: 3em 3em 1pem black;
+    text-align: center;
+    font-family: "Potta One", system-ui;
+    font-weight: 200em;
+    font-style: normal;
+    text-align: justify;
+}
+button{
+    margin-left: 38%;
+    margin-right: 33%;
+    font-family: monospace;
+    font-size: x-large;
+    transition-duration: 0.2s;
+    padding: 0px;
+    border-radius: 8px;
+    background-color: whitesmoke; 
+    color: black; 
+    border: 2px solid black;
+    cursor: pointer;
+    margin-bottom: 5%;
+    width: 30%;
+    height: auto;
+}
+Button:hover{
+    transform: scale(1.1);
+    border-radius: 14px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: black;
+    background-color: white;
+ }
+ @media (max-width: 0%) {
+   button {
+     width: 100%;
+     height: 100%;
+   }
+ }
